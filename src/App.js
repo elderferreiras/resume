@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import './App.css';
-import Header from "./Header/Header";
-import Body from "./Body/Body";
+import './App.scss';
+import Header from "./components/Common/Header";
+import Body from "./components/Common/Body";
 
 class App extends Component {
     state = {
@@ -112,6 +112,41 @@ class App extends Component {
                     beginDate: '2007',
                     endDate: '2010'
                 },
+            ],
+            awards: [
+                {
+                    title: 'Award Name Lorem',
+                    description: 'Award desc goes here, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.'
+                },
+                {
+                    title: 'Award Name Ipsum',
+                    description: 'Award desc goes here, ultricies nec, pellentesque.'
+                }
+            ],
+            languages: [
+                {
+                    language: 'English',
+                    proficiency: 'Native'
+                },
+                {
+                    language: 'French',
+                    proficiency: 'Professional'
+                },
+                {
+                    language: 'Spanish',
+                    proficiency: 'Professional'
+                }
+            ],
+            interests: [
+                {
+                    interest: 'Reading'
+                },
+                {
+                    interest: 'Writing'
+                },
+                {
+                    interest: 'Photography'
+                }
             ]
 
         }
