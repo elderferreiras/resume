@@ -1,6 +1,6 @@
 import React from 'react';
-import PrimaryInfo from "./PrimaryInfo";
-import SecondaryInfo from "./SecondaryInfo";
+import PrimaryInfo from "../Profile/PrimaryInfo";
+import SecondaryInfo from "../Profile/SecondaryInfo";
 
 const Header = (props) => {
     return (

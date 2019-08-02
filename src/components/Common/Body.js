@@ -1,11 +1,11 @@
 import React from 'react';
-import CareerSummary from "./CareerSummary/CareerSummary";
-import WorkExperience from "./Experience/WorkExperience";
-import Skills from "./Sections/Skills/Skills";
-import Education from "./Sections/Education/Education";
-import Awards from "./Sections/Awards/Awards";
-import Languages from "./Sections/Languages/Languages";
-import Interests from "./Sections/Interests/Interests";
+import CareerSummary from "../CareerSummary/CareerSummary";
+import WorkExperience from "../Experience/WorkExperience";
+import Skills from "../Skills/Skills";
+import Education from "../Education/Education";
+import Awards from "../Awards/Awards";
+import Languages from "../Languages/Languages";
+import Interests from "../Interests/Interests";
 
 const Body = (props) => {
     return (
@@ -24,9 +24,9 @@ const Body = (props) => {
                 <div className="col-lg-3">
                     <Skills skills={props.sections.skills}/>
                     <Education education={props.sections.education}/>
-                    <Awards/>
-                    <Languages/>
-                    <Interests/>
+                    <Awards awards={props.sections.awards}/>
+                    <Languages languages={props.sections.languages}/>
+                    <Interests interests={props.sections.interests}/>
                 </div>
             </div>
         </div>
