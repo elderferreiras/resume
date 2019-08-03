@@ -1,6 +1,6 @@
 import React from 'react';
 import CareerSummary from "../CareerSummary/CareerSummary";
-import WorkExperience from "../Experience/WorkExperience";
+import Experience from "../Experience/Experience";
 import Skills from "../Skills/Skills";
 import Education from "../Education/Education";
 import Awards from "../Awards/Awards";
@@ -13,18 +13,14 @@ const Body = (props) => {
             <CareerSummary summary={props.body.careerSummary}/>
             <div className="row">
                 <div className="col-lg-9">
-                    <section className="resume-section experience-section mb-5">
-                        <h2 className="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work
-                            Experience</h2>
-                        <div className="resume-timeline position-relative">
-                            <WorkExperience experiences={props.body.workExperiences}/>
-                        </div>
-                    </section>
+                    <Experience experiences={props.body.workExperiences} type="Work Experience"/>
+                    <Experience experiences={props.body.researchExperiences} type="Research"/>
+                    <Experience experiences={props.body.personalProjects} type="Personal Projects"/>
+                    <Experience experiences={props.body.volunteerExperiences}  type="Volunteer Experience"/>
                 </div>
                 <div className="col-lg-3">
                     <Skills skills={props.sections.skills}/>
                     <Education education={props.sections.education}/>
-                    <Awards awards={props.sections.awards}/>
                     <Languages languages={props.sections.languages}/>
                     <Interests interests={props.sections.interests}/>
                 </div>

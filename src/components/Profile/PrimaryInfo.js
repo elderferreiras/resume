@@ -2,7 +2,7 @@ import React from 'react';
 import ProfileMetadata from "./ProfileMetadata";
 
 const PrimaryInfo = (props) => {
-    const metadata = props.metadata.map((metadata) => {
+    const metadata = props.metadata.map((metadata, key) => {
         return (<ProfileMetadata class={metadata.class} icon={metadata.icon} transform={metadata.transform} value={metadata.value}/>);
     });
 
