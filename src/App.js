@@ -183,7 +183,7 @@ class App extends Component {
                             ]
                         },
                     ],
-                    technologies: ['React', 'JavaScript', 'CSS/SASS', 'AWS Amplify', 'Amazon S3']
+                    technologies: ['React', 'JavaScript', 'React Bootstrap', 'CSS/SASS', 'AWS Amplify', 'Amazon S3']
                 }
             ],
             volunteerExperiences: [
@@ -196,7 +196,26 @@ class App extends Component {
                     description: [
                         'While volunteering for the Women\'s Association of the Marudá Fishing Area (AMAPEM), engaged in social issues in the city of Marudá by providing free English classes to at-risk youth and producing multimedia material to highlight the social and political needs of women and children in the region.'
                     ],
-                    media: [],
+                    media: [
+                        {
+                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/amapem/amapem_3.jpg'
+                        },
+                        {
+                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/amapem/amapem_4.jpg'
+                        },
+                        {
+                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/amapem/amapem_5.jpg'
+                        },
+                        {
+                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/amapem/amapem_2.jpg'
+                        },
+                        {
+                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/amapem/amapem_6.jpg'
+                        },
+                        {
+                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/amapem/amapem_1.jpg'
+                        }
+                    ],
                     technologies: []
                 },
                 {
@@ -208,7 +227,29 @@ class App extends Component {
                     description: [
                         'While partnering with the Information and Georeferencing System Laboratory(LASIG) at the University of Pará, visited eight quilombos in rural Pará, which are historical Brazilian communities founded by people of African origin, and registered the culture, music, dance, sports and everyday issues faced by the quilombolas through photographing. A collection of the best photographs will be included in a book on the Quilombolas communities to be published by the Universidade Federal do Pará (UFPA).'
                     ],
-                    media: [],
+                    media: [
+                        {
+                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/lasig/salvaterra_1.jpg'
+                        },
+                        {
+                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/lasig/salvaterra_2.jpg'
+                        },
+                        {
+                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/lasig/salvaterra_3.jpg'
+                        },
+                        {
+                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/lasig/salvaterra_4.jpg'
+                        },
+                        {
+                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/lasig/salvaterra_5.jpg'
+                        },
+                        {
+                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/lasig/salvaterra_6.jpg'
+                        },
+                        {
+                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/lasig/salvaterra_7.jpg'
+                        }
+                    ],
                     technologies: []
                 },
                 {
@@ -220,7 +261,21 @@ class App extends Component {
                     description: [
                         'Supports the local independent art house by writing weekly reviews for the featured movies. The reviews can be found on the Art House Cinema & Pub\'s blog: http://arthousebillings.com/author/elderferreirass/. On top of that, helps with non-profit events hosted at the cinema by managing orders behind the bar.'
                     ],
-                    media: [],
+
+                    media: [
+                        {
+                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/arthouse/arthouse_1.png'
+                        },
+                        {
+                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/arthouse/arthouse_2.png'
+                        },
+                        {
+                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/arthouse/arthouse_3.png'
+                        },
+                        {
+                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/arthouse/arthouse_4.png'
+                        }
+                    ],
                     technologies: []
                 },
                 {
@@ -232,7 +287,7 @@ class App extends Component {
                     description: [
                         'Helped with the very first Montana International Film Festival by selling tickets and merchandise at one of the event\'s venues.'
                     ],
-                    media: [],
+                    media:[],
                     technologies: []
                 }
             ]

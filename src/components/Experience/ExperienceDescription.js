@@ -1,4 +1,5 @@
 import React from 'react';
+import { Carousel } from 'react-bootstrap';
 import WorkExperienceTechnologyUsed from "./WorkExperienceTechnologyUsed";
 
 const ExperienceDescription = (props) => {
@@ -48,13 +49,36 @@ const ExperienceDescription = (props) => {
                 );
             }
 
-            return descriptionEl;
+            return detailsEl;
         }
     });
+
+    let carousel;
+
+    if(props.experience.media) {
+        const carouselItems = props.experience.media.map((media) => {
+            return (
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={media.url}
+                        alt={media.label}
+                    />
+                </Carousel.Item>
+            );
+        });
+
+        carousel = carouselItems.length ? (<Carousel>
+            {
+                carouselItems
+            }
+        </Carousel>) : '';
+    }
 
     return (
         <div className="resume-timeline-item-desc">
             {description}
+            {carousel}
             {technologies.length ? (
                 <div>
                     <h4 className="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
