@@ -32,22 +32,15 @@ class App extends Component {
                     url: 'github.com/elderferreiras'
                 },
                 {
-                    class: 'fab fa-codepen fa-fw',
-                    url: 'codepen.io/username/'
-                },
-                {
-                    class: 'fas fa-globe',
-                    url: 'yourwebsite.com'
+                    class: 'fab fa-youtube fa-fw',
+                    url: 'channel.thenextlevel.dev'
                 }
 
             ]
         },
         body: {
             careerSummary: [
-                'I currently work as a software developer in Billings, MT, where I create solutions in PHP and JavaScript to enhance WebBuy, an application for online car buying. On top of that, I design and develop small systems using Lumen/PHP and Angular/TypeScript.',
-                'I have a Bachelor of Computer Science degree from the University of Pará in Brazil. There, I joined Spider, a research group focused on creating open source solutions for companies in need of enhancing their software processes. As a student research assistant, I co-published six academic papers and was granted a Brazilian Scientific Mobility Program scholarship, which was a government initiative to grant university students the opportunity to study abroad. In the United States, I attended three different colleges: Genesee Community College, where I focused on enhancing my English language skills; State University of New York (Geneseo); and University of Montana, where I took advanced computer science classes. As part of this experience, I worked with Java and multithreading at LexisNexis Risk Solutions in Atlanta, Georgia during an internship in the Summer of 2014.',
-                'After returning to Brazil, I graduated and worked as a software developer at Acception Tecnologia. There, I worked with Java, Groovy, and Grails to deliver solutions for the second biggest Brazilian cosmetic company, O Boticário. In 2017, I returned to the United States and started working as a software developer in Billings, MT, creating new features for our clients’ systems and mentoring new developers in the team.',
-                'As for the future, I am always looking to expand my knowledge and get to the next level by focusing on improving and finding greater challenges.'
+                'I currently work as a software developer in Billings, MT, where I create solutions in PHP and JavaScript to enhance WebBuy, an application for online car buying. On top of that, I work on designing and developing small systems using Lumen/PHP and Angular/JavaScript/TypeScript. I am always looking to expand my knowledge, to find new problems to solve, and to get to the next level by dedicating a bit of time everyday to improve my craft.'
             ],
             workExperiences: [
                 {
