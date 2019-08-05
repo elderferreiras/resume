@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SkillTag = (props) => {
+const Tag = (props) => {
     return (
         <li className="list-inline-item">
             <span className="badge badge-light">
@@ -10,4 +10,4 @@ const SkillTag = (props) => {
     );
 };
 
-export default SkillTag;
+export default Tag;

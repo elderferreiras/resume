@@ -1,5 +1,5 @@
 import React from 'react';
-import SocialMedia from "./SocialMedia";
+import SocialMedia from "../SocialMedia/SocialMedia";
 
 const SecondaryInfo = (props) => {
     const socialMedia = props.socialMedia.map((socialMedia => {

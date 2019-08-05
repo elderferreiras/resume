@@ -1,5 +1,5 @@
 import React from 'react';
-import Award from "./Award";
+import Award from "./Award/Award";
 
 const Awards = (props) => {
     const awardsList = props.awards.map(award => {

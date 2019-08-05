@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import './App.scss';
-import Header from "./components/Common/Header";
-import Body from "./components/Common/Body";
+import Common from "../components/Common/Common";
 
 class App extends Component {
     state = {
@@ -398,12 +397,7 @@ class App extends Component {
 
     render() {
         return (
-            <article className="resume-wrapper text-center position-relative">
-                <div className="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
-                    <Header header={this.state.header}/>
-                    <Body body={this.state.body} sections={this.state.sections}/>
-                </div>
-            </article>
+            <Common state={this.state}/>
         );
     }
 }

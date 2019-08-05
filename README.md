@@ -25,10 +25,7 @@ This project is a React version of the resume template created by [Xiaoying Rile
 │   │   │   ├── Institution.js
 │   │   ├── Experience
 │   │   │   ├── Experience.js
-│   │   │   ├── ExperienceDescription.js
-│   │   │   ├── ExperienceTechnologyUsed.js
-│   │   │   ├── ExperienceTimeline.js
-│   │   ├── Interests
+│   │   │   ├── Description.js   ├── TechnologyUsed.js   ├── Timeline  ├── Interests
 │   │   │   ├── Interests.js
 │   │   │   ├── Interest.js
 │   │   ├── Languages
@@ -38,14 +35,10 @@ This project is a React version of the resume template created by [Xiaoying Rile
 │   │   ├── Profile
 │   │   │   ├── Language.js
 │   │   │   ├── Languages.js
-│   │   │   ├── ProfileMetadata.js
-│   │   │   ├── SocialMedia.js
+│   │   │   ├── Metadata.js  │   ├── SocialMedia.js
 │   │   ├── Skills
-│   │   │   ├── SkillItem.js
-│   │   │   ├── Skills.js
-│   │   │   ├── SkillTag.js
-│   │   │   ├── SkillType.js
-│   ├── App.js
+│   │   │   ├── Item  │   │   ├── Skills.js
+│   │   │   ├── Tag.js│   │   ├── Type   ├── App.js
 │   ├── App.scss
 ├── public
 │   ├── index.html

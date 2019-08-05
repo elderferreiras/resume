@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ExperienceTechnologyUsed = (props) => {
+const TechnologyUsed = (props) => {
     return (
         <li className="list-inline-item">
             <span className="badge badge-primary badge-pill">
@@ -10,4 +10,4 @@ const ExperienceTechnologyUsed = (props) => {
     );
 };
 
-export default ExperienceTechnologyUsed;
+export default TechnologyUsed;

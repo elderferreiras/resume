@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SkillItem = (props) => {
+const Item = (props) => {
     const style = {
         width: `${props.percent}%`
     };
@@ -16,4 +16,4 @@ const SkillItem = (props) => {
     );
 };
 
-export default SkillItem;
+export default Item;

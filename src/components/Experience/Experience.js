@@ -1,6 +1,6 @@
 import React from 'react';
-import ExperienceTimeline from "./ExperienceTimeline";
-import ExperienceDescription from "./ExperienceDescription";
+import Timeline from "./Timeline/Timeline";
+import Description from "./Description/Description";
 
 const Experience = (props) => {
     const workExperiences = props.experiences.map((experience, index) => {
@@ -8,8 +8,8 @@ const Experience = (props) => {
         return (
 
             <article className={`resume-timeline-item position-relative ${articleClass}`}>
-                <ExperienceTimeline experience={experience}/>
-                <ExperienceDescription experience={experience}/>
+                <Timeline experience={experience}/>
+                <Description experience={experience}/>
             </article>
         );
     });

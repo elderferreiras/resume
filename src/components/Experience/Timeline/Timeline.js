@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ExperienceTimeline = (props) => {
+const Timeline = (props) => {
     let extra = '';
 
     if (props.experience.subtitle) {
@@ -22,4 +22,4 @@ const ExperienceTimeline = (props) => {
     );
 };
 
-export default ExperienceTimeline;
+export default Timeline;

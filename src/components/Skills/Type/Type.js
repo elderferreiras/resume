@@ -1,15 +1,15 @@
 import React from 'react';
-import SkillItem from "./SkillItem";
-import SkillTag from "./SkillTag";
+import Item from "../Item/Item";
+import Tag from "../Tag/Tag";
 
-const SkillType = (props) => {
+const Type = (props) => {
     const items = props.skills.map((skill) => {
         if(skill.name && skill.percent) {
             return (
-                <SkillItem name={skill.name} percent={skill.percent}/>
+                <Item name={skill.name} percent={skill.percent}/>
             );
         } else {
-           return (<SkillTag name={skill}/>);
+           return (<Tag name={skill}/>);
         }
     });
 
@@ -23,4 +23,4 @@ const SkillType = (props) => {
     );
 };
 
-export default SkillType;
+export default Type;

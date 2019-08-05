@@ -1,9 +1,9 @@
 import React from 'react';
-import SkillType from "./SkillType";
+import Type from "./Type/Type";
 
 const Skills = (props) => {
     const skills = props.skills.map((skill) => {
-        return (<SkillType type={skill.type} skills={skill.skills}/>);
+        return (<Type type={skill.type} skills={skill.skills}/>);
     });
 
     return (
