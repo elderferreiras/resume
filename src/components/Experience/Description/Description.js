@@ -1,10 +1,10 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import ExperienceTechnologyUsed from "./ExperienceTechnologyUsed";
+import TechnologyUsed from "../TechnologyUsed/TechnologyUsed";
 
-const ExperienceDescription = (props) => {
+const Description = (props) => {
     const technologies = props.experience.technologies.map((technology) => {
-        return (<ExperienceTechnologyUsed technology={technology}/>);
+        return (<TechnologyUsed technology={technology}/>);
     });
 
     const description = props.experience.description.map((description) => {
@@ -91,4 +91,4 @@ const ExperienceDescription = (props) => {
     );
 };
 
-export default ExperienceDescription;
+export default Description;

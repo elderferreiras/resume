@@ -1,11 +1,11 @@
 import React from 'react';
-import CareerSummary from "../CareerSummary/CareerSummary";
-import Experience from "../Experience/Experience";
-import Skills from "../Skills/Skills";
-import Education from "../Education/Education";
-import Awards from "../Awards/Awards";
-import Languages from "../Languages/Languages";
-import Interests from "../Interests/Interests";
+import CareerSummary from "../../CareerSummary/CareerSummary";
+import Experience from "../../Experience/Experience";
+import Skills from "../../Skills/Skills";
+import Education from "../../Education/Education";
+import Awards from "../../Awards/Awards";
+import Languages from "../../Languages/Languages";
+import Interests from "../../Interests/Interests";
 
 const Body = (props) => {
     return (

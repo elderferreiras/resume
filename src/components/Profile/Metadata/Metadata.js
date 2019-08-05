@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProfileMetadata = (props) => {
+const Metadata = (props) => {
     return (
         <li className={props.class} key={props.index}>
             <a href="#">
@@ -11,4 +11,4 @@ const ProfileMetadata = (props) => {
     );
 };
 
-export default ProfileMetadata;
+export default Metadata;

@@ -1,5 +1,5 @@
 import React from 'react';
-import Language from "./Language";
+import Language from "./Language/Language";
 
 const Languages = (props) => {
     const languages = props.languages.map(language => {

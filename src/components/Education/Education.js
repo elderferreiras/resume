@@ -1,5 +1,5 @@
 import React from 'react';
-import Institution from "./Institution";
+import Institution from "./Institution/Institution";
 
 const Education = (props) => {
     const educations = props.education.map((education) => {

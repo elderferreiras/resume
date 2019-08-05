@@ -1,5 +1,5 @@
 import React from 'react';
-import Interest from "./Interest";
+import Interest from "./Interest/Interest";
 
 const Interests = (props) => {
     const interests = props.interests.map((interest) => {
