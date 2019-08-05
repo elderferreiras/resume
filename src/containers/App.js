@@ -3,11 +3,13 @@ import './App.scss';
 import Common from "../components/Common/Common";
 
 class App extends Component {
+    s3Url = 'https://elder-patten-ferreira-resume.s3-us-west-2.amazonaws.com/';
+    
     state = {
         header: {
             name: 'Elder Patten Ferreira',
             title: 'Software Developer',
-            profileImageUrl: 'http://cdn.elderf.com/assets/images/elder.jpg',
+            profileImageUrl: this.s3Url + 'assets/images/elder.jpg',
             metadata: [
                 {
                     class: 'mb-2',
@@ -190,22 +192,22 @@ class App extends Component {
                     ],
                     media: [
                         {
-                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/amapem/amapem_3.jpg'
+                            url: this.s3Url + 'assets/images/experience/volunteeer/amapem/amapem_3.jpg'
                         },
                         {
-                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/amapem/amapem_4.jpg'
+                            url: this.s3Url + 'assets/images/experience/volunteeer/amapem/amapem_4.jpg'
                         },
                         {
-                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/amapem/amapem_5.jpg'
+                            url: this.s3Url + 'assets/images/experience/volunteeer/amapem/amapem_5.jpg'
                         },
                         {
-                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/amapem/amapem_2.jpg'
+                            url: this.s3Url + 'assets/images/experience/volunteeer/amapem/amapem_2.jpg'
                         },
                         {
-                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/amapem/amapem_6.jpg'
+                            url: this.s3Url + 'assets/images/experience/volunteeer/amapem/amapem_6.jpg'
                         },
                         {
-                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/amapem/amapem_1.jpg'
+                            url: this.s3Url + 'assets/images/experience/volunteeer/amapem/amapem_1.jpg'
                         }
                     ],
                     technologies: []
@@ -221,25 +223,25 @@ class App extends Component {
                     ],
                     media: [
                         {
-                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/lasig/salvaterra_1.jpg'
+                            url: this.s3Url + 'assets/images/experience/volunteeer/lasig/salvaterra_1.jpg'
                         },
                         {
-                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/lasig/salvaterra_2.jpg'
+                            url: this.s3Url + 'assets/images/experience/volunteeer/lasig/salvaterra_2.jpg'
                         },
                         {
-                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/lasig/salvaterra_3.jpg'
+                            url: this.s3Url + 'assets/images/experience/volunteeer/lasig/salvaterra_3.jpg'
                         },
                         {
-                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/lasig/salvaterra_4.jpg'
+                            url: this.s3Url + 'assets/images/experience/volunteeer/lasig/salvaterra_4.jpg'
                         },
                         {
-                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/lasig/salvaterra_5.jpg'
+                            url: this.s3Url + 'assets/images/experience/volunteeer/lasig/salvaterra_5.jpg'
                         },
                         {
-                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/lasig/salvaterra_6.jpg'
+                            url: this.s3Url + 'assets/images/experience/volunteeer/lasig/salvaterra_6.jpg'
                         },
                         {
-                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/lasig/salvaterra_7.jpg'
+                            url: this.s3Url + 'assets/images/experience/volunteeer/lasig/salvaterra_7.jpg'
                         }
                     ],
                     technologies: []
@@ -256,16 +258,16 @@ class App extends Component {
 
                     media: [
                         {
-                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/arthouse/arthouse_1.png'
+                            url: this.s3Url + 'assets/images/experience/volunteeer/arthouse/arthouse_1.png'
                         },
                         {
-                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/arthouse/arthouse_2.png'
+                            url: this.s3Url + 'assets/images/experience/volunteeer/arthouse/arthouse_2.png'
                         },
                         {
-                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/arthouse/arthouse_3.png'
+                            url: this.s3Url + 'assets/images/experience/volunteeer/arthouse/arthouse_3.png'
                         },
                         {
-                            url: 'http://cdn.elderf.com/assets/images/experience/volunteeer/arthouse/arthouse_4.png'
+                            url: this.s3Url + 'assets/images/experience/volunteeer/arthouse/arthouse_4.png'
                         }
                     ],
                     technologies: []
