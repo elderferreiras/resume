@@ -169,7 +169,7 @@ class App extends Component {
 
                     description: [
                         {
-                            description: 'Converted the free resume template provided by Xiaoying Riley at 3rd Wave Media into a React application by creating components to reuse code and deploying it to a create a serverless backend using AWS Amplify.',
+                            description: 'Converted the resume template designed by Xiaoying Riley at 3rd Wave Media into a React application by creating components to reuse code.',
                             details: [
                                 {
                                     source: 'https://github.com/elderferreiras/resume'
