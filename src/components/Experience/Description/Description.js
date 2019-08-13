@@ -4,12 +4,12 @@ import TechnologyUsed from "../TechnologyUsed/TechnologyUsed";
 
 const Description = (props) => {
     const technologies = props.experience.technologies.map((technology) => {
-        return (<TechnologyUsed technology={technology}/>);
+        return (<TechnologyUsed technology={technology} key={props.experience.title + technology}/>);
     });
 
     const description = props.experience.description.map((description) => {
         if (typeof description === "string") {
-            return (<p>{description}</p>)
+            return (<p key={description}>{description}</p>)
         } else {
             const descriptionEl = (<p>{description.description}</p>);
 
@@ -29,10 +29,10 @@ const Description = (props) => {
                 }
 
                 return (
-                    <li className="experience-detail">
+                    <li className="experience-detail" key={props.experience + '_' +detail.title}>
                         {detail.title}
                         <div>
-                           {links.map((link, i) => (<span>{link} {(i +1) === links.length? '' : ' | '} </span>))}
+                           {links.map((link, i) => (<span key={link + " " + i}>{link} {(i +1) === links.length? '' : ' | '} </span>))}
                         </div>
                     </li>
                 );
@@ -40,7 +40,7 @@ const Description = (props) => {
 
             if (detailsEl.length) {
                 return (
-                    <div>
+                    <div key={detailsEl}>
                         {descriptionEl}
                         <ul>
                             {detailsEl}
@@ -58,7 +58,7 @@ const Description = (props) => {
     if(props.experience.media) {
         const carouselItems = props.experience.media.map((media) => {
             return (
-                <Carousel.Item>
+                <Carousel.Item key={media.url}>
                     <img
                         className="d-block w-100"
                         src={media.url}

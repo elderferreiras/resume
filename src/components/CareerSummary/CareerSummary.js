@@ -2,7 +2,7 @@ import React from 'react';
 
 const CareerSummary = (props) => {
     const summary = props.summary.map((summary, i) => {
-        return (<p className="mb-0 summary-paragraph">{summary}</p>);
+        return (<p className="mb-0 summary-paragraph" key="resume-summary">{summary}</p>);
     });
 
     return (

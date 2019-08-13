@@ -3,7 +3,7 @@ import Type from "./Type/Type";
 
 const Skills = (props) => {
     const skills = props.skills.map((skill) => {
-        return (<Type type={skill.type} skills={skill.skills}/>);
+        return (<Type type={skill.type} skills={skill.skills} key={skill.type + props.skills.join('')}/>);
     });
 
     return (

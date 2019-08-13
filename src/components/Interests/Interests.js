@@ -3,7 +3,7 @@ import Interest from "./Interest/Interest";
 
 const Interests = (props) => {
     const interests = props.interests.map((interest) => {
-        return (<Interest interest={interest.interest}/>);
+        return (<Interest interest={interest.interest} key={interest.interest}/>);
     });
 
     return (
