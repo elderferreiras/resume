@@ -7,7 +7,7 @@ const Experience = (props) => {
         const articleClass = index === props.experiences.length - 1 ? '' : 'pb-5';
         return (
 
-            <article className={`resume-timeline-item position-relative ${articleClass}`}>
+            <article className={`resume-timeline-item position-relative ${articleClass}`} key={'experience-' + experience.title}>
                 <Timeline experience={experience}/>
                 <Description experience={experience}/>
             </article>

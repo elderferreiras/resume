@@ -4,7 +4,7 @@ import Institution from "./Institution/Institution";
 const Education = (props) => {
     const educations = props.education.map((education) => {
         return (
-            <Institution institution={education}/>
+            <Institution institution={education} key={'institution-' + education.university}/>
         );
     });
 

@@ -6,10 +6,10 @@ const Type = (props) => {
     const items = props.skills.map((skill) => {
         if(skill.name && skill.percent) {
             return (
-                <Item name={skill.name} percent={skill.percent}/>
+                <Item name={skill.name} percent={skill.percent} key={"type-" + skill.name}/>
             );
         } else {
-           return (<Tag name={skill}/>);
+           return (<Tag name={skill} key={"tag-" + skill}/>);
         }
     });
 

@@ -3,7 +3,11 @@ import SocialMedia from "../SocialMedia/SocialMedia";
 
 const SecondaryInfo = (props) => {
     const socialMedia = props.socialMedia.map((socialMedia => {
-        return (<SocialMedia class={socialMedia.class} url={socialMedia.url}/>);
+        return (<SocialMedia
+            class={socialMedia.class}
+            url={socialMedia.url}
+            key={socialMedia.url}
+        />);
     }));
 
     return (
