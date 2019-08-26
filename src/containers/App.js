@@ -11,7 +11,7 @@ class App extends Component {
     };
 
     componentDidMount() {
-        axios.get('resume').then(res => {
+        axios.get('https://cmqok3ll2h.execute-api.us-west-2.amazonaws.com/dev/').then(res => {
             if(res.data) {
                 this.setState(res.data);
             }
