@@ -6,6 +6,7 @@ const SecondaryInfo = (props) => {
         return (<SocialMedia
             class={socialMedia.class}
             url={socialMedia.url}
+            label={socialMedia.label}
             key={socialMedia.url}
         />);
     }));

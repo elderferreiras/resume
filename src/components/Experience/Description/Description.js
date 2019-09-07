@@ -68,7 +68,7 @@ const Description = (props) => {
             );
         });
 
-        carousel = carouselItems.length ? (<Carousel>
+        carousel = carouselItems.length ? (<Carousel className="mb-2">
             {
                 carouselItems
             }

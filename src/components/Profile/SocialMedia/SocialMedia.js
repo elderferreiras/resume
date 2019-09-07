@@ -7,7 +7,7 @@ const SocialMedia = (props) => {
                 <span className="fa-container text-center mr-2">
                     <i className={props.class}/>
                 </span>
-                {props.url}
+                {props.label? props.label : props.url}
             </a>
         </li>
     );
